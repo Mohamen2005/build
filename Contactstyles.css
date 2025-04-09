@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter Tight", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+
+    height: 100vh;
+    background-image: linear-gradient(#e8eeec00, transparent), url(pic/expo_bano_barcelona_dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    background-color: rgb(0, 162, 160);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2px; */
+    align-items: center;
+    padding: 8px;
+    position: relative;
+}
+
+.navbar :hover {
+    color: black;
+    transition: 2s;
+}
+
+.adress {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.adress li a {
+    text-decoration: none;
+    margin-left: 45px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: rgb(230, 225, 217);
+    position: relative;
+}
+
+.adress li a:hover {
+    color: black;
+    transition: 2s;
+}
+
+.social_media {
+    display: flex;
+    list-style: none;
+}
+
+.social_media li a {
+    margin: 2px;
+    padding: 5px;
+    font-size: 25px;
+    color: azure;
+}
+
+.Contacts {
+    display: flex;
+    /* background-color: rgb(0, 162, 160); */
+    position: relative;
+    padding: 10px;
+
+}
+
+.Contacts .img iframe {
+    width: 750px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 1px;
+
+}
+
+.Contacts .img {
+    width: 50%;
+    position: relative;
+
+}
+
+.Contacts .text {
+    width: 50%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.536);
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 30px;
+    max-width: 100%;
+}
+
+.Contacts .text p {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.information {
+    font-size: 20px;
+    color: azure;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.information p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+.info {
+    font-size: 12px;
+    position: relative;
+    background-color: rgb(0, 162, 160);
+    color: azure;
+    /* padding-bottom: 10px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    text-align: center;
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.btn {
+    float: right;
+    display: block;
+    color: #ffffff;
+    font: 20px/24px 'Roboto Condensed', sans-serif;
+    padding: 5px 17px 6px;
+    background-color: #00b1bab7;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.fieldset {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#contact-form {
+    position: relative;
+    padding-top: 33px;
+}
+
+#contact-form .btn {
+    margin-top: 32px;
+}
+
+#contact-form label {
+    display: block;
+    position: relative;
+    display: inline-block;
+    width: 370px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 56px;
+}
+
+#contact-form label+label {
+    margin-left: 30px;
+}
+
+#contact-form label.message {
+    margin-left: 0;
+    width: 100%;
+    position: relative;
+    top: -1px;
+}
+
+#contact-form fieldset {
+    border: none;
+}
+
+
+#contact-form ._placeholder {
+    width: 100% !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 20px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: text;
+    color: #626161;
+}
+
+
+#contact-form ._placeholder.focused {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(237, 44, 53, 0.7);
+    box-shadow: 0px 0px 7px 0px rgba(237, 44, 53, 0.7);
+}
+
+#contact-form ._placeholder.hidden {
+    display: none;
+}
+
+#contact-form .file ._placeholder {
+    display: none;
+}
+
+
+#contact-form input[type='text'] {
+    width: 100%;
+    border-radius: 4px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 20px 5px;
+    outline: none;
+    color: #626161;
+    height: 31px;
+    border: 1px solid #f0efef;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #f7f9fa;
+}
+
+
+
+#contact-form textarea {
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 20px 5px;
+    outline: none;
+    border: 1px solid #f0efef;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+    color: #626161;
+    height: 221px;
+    background-color: #f7f9fa;
+}
+
+
+
+#contact-form .empty-message,
+#contact-form .error-message {
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    color: red;
+    height: 0;
+    overflow: hidden;
+    font-size: 11px;
+    -webkit-transition: 0.3s ease-in height;
+    transition: 0.3s ease-in height;
+    z-index: 99;
+}
+
+#contact-form .invalid .error-message,
+#contact-form .empty .empty-message {
+    height: 20px;
+}

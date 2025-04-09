@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter Tight", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+
+    height: 120vh;
+    background-image: linear-gradient(#87bfb157, transparent), url(pic/premios-adi-nu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    background-color: rgb(0, 162, 160);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2px; */
+    align-items: center;
+    padding: 8px;
+    position: relative;
+}
+
+.navbar :hover {
+    color: black;
+    transition: 2s;
+}
+
+.adress {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.adress li a {
+    text-decoration: none;
+    margin-left: 45px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: rgb(230, 225, 217);
+    position: relative;
+}
+
+.adress li a:hover {
+    color: black;
+    transition: 2s;
+}
+
+.social_media {
+    display: flex;
+    list-style: none;
+}
+
+.social_media li a {
+    margin: 2px;
+    padding: 5px;
+    font-size: 25px;
+    color: azure;
+}
+
+.About {
+    background-color: rgba(0, 0, 0, 0.836);
+    color: aliceblue;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 10px;
+
+}
+
+.About h3 {
+    text-align: center;
+    padding-top: 15px;
+    /* margin: 5px; */
+    width: 100%;
+    align-items: flex-start;
+    font-size: 30px;
+
+}
+
+.About p {
+    padding: 15px;
+    /* margin: 5px; */
+    width: 99%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.About p span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.About a {
+    text-decoration: none;
+    border: 3px solid #87bfb157;
+    color: azure;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.About a:hover {
+    background-color: rgb(0, 162, 160);
+    transition: 1s;
+}
+
+.vision {
+    /* display: flex; */
+    position: relative;
+    /* background-color: black; */
+    text-align: left;
+}
+
+/* .vision .img{
+    width: 100%;
+}
+.vision .img img{
+    width: 750px;
+}  */
+.vision .txt {
+    width: 100%;
+    padding: 15px;
+
+}
+
+.vision .txt h4 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+
+
+}
+
+.vision .txt p {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.info {
+    font-size: 12px;
+    position: relative;
+    background-color: rgb(0, 162, 160);
+    color: azure;
+    /* padding-bottom: 10px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.copy {
+    text-align: center;
+    display: flex;
+    padding-top: 10px;
+
+
+}

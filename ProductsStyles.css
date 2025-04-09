@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter Tight", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+
+    height: 100vh;
+    background-image: linear-gradient(#f2eded00, transparent), url(pic/avant_floorstanding_WC_highlighted_slider.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    background-color: rgb(0, 162, 160);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2px; */
+    align-items: center;
+    padding: 8px;
+    position: relative;
+}
+
+.Avant {
+    /* background-color: aqua; */
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 250px;
+    font-size: 25px;
+    color: azure;
+    max-width: 100%;
+
+}
+
+.navbar :hover {
+    color: black;
+    transition: 2s;
+}
+
+.adress {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.adress li a {
+    text-decoration: none;
+    margin-left: 45px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: rgb(230, 225, 217);
+    position: relative;
+}
+
+.adress li a:hover {
+    color: black;
+    transition: 2s;
+}
+
+.social_media {
+    display: flex;
+    list-style: none;
+}
+
+.social_media li a {
+    margin: 2px;
+    padding: 5px;
+    font-size: 25px;
+    color: azure;
+}
+
+.RocaProducts {
+    display: flex;
+    padding: 10px;
+    margin: 1px;
+    background-color: rgb(7, 47, 47);
+    position: relative;
+}
+
+.RocaProducts .video {
+    width: 50%;
+    position: relative;
+
+}
+
+.RocaProducts .video video {
+    position: relative;
+    max-width: 100%;
+}
+
+.RocaProducts .text {
+    position: relative;
+    width: 50%;
+    max-width: 100%;
+    padding: 35px;
+    margin: 10px;
+    font-size: 20px;
+    color: azure;
+}
+
+.text p {
+    text-align: justify;
+    font-style: unset;
+
+}
+
+.pic {
+    align-items: safe;
+    justify-content: space-between;
+    position: relative;
+    padding: initial;
+    margin: auto;
+    max-width: 100%;
+    padding: 2px;
+}
+
+.Description {
+    direction: initial;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(126, 113, 113, 0.218);
+    color: darkslategrey;
+    font-size: 20px;
+    place-content: 10px;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+
+
+
+.info {
+    font-size: 12px;
+    position: relative;
+    background-color: rgb(0, 162, 160);
+    color: azure;
+    /* padding-bottom: 10px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.copy {
+    text-align: center;
+    display: flex;
+    padding-top: 10px;
+
+
+}
